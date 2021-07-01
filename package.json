@@ -1,0 +1,31 @@
+{
+  "name": "Web3 Fund",
+  "version": "1.0.0",
+  "description": "Web3 Fund",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "mocha --recursive  --exit test --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainlink/contracts": "^0.1.7",
+    "@openzeppelin/contracts": "^3.2.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/test-environment": "^0.1.4",
+    "@openzeppelin/test-helpers": "^0.5.6",
+    "@truffle/hdwallet-provider": "^1.0.42",
+    "chai": "^4.2.0",
+    "ganache-cli": "^6.10.1",
+    "mocha": "^8.1.1",
+    "web3": "^1.2.11",
+    "web3-eth-abi": "^1.2.11",
+    "ethers": "^5.0.27"
+  }
+}
